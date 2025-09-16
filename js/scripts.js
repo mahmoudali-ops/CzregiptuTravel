@@ -133,23 +133,23 @@ window.onclick = function (event) {
 }
 
 
-function showPopup() {
-    const popup = document.getElementById('help-popup')
-    const popupbg = document.getElementById('pop-up-bg')
-    popupbg.style.display = "block"
-    popup.style.display = 'block'
-}
+// function showPopup() {
+//     const popup = document.getElementById('help-popup')
+//     const popupbg = document.getElementById('pop-up-bg')
+//     popupbg.style.display = "block"
+//     popup.style.display = 'block'
+// }
 
-function closePopup() {
-    const popup = document.getElementById('help-popup')
-    popup.style.display = 'none'
-    const popupbg = document.getElementById('pop-up-bg')
-    popupbg.style.display = "none"
-}
+// function closePopup() {
+//     const popup = document.getElementById('help-popup')
+//     popup.style.display = 'none'
+//     const popupbg = document.getElementById('pop-up-bg')
+//     popupbg.style.display = "none"
+// }
 
-setInterval(showPopup, 120000);
+// setInterval(showPopup, 120000);
 
-document.getElementById('close-popup').addEventListener('click', closePopup);
+// document.getElementById('close-popup').addEventListener('click', closePopup);
 
 
 const translations = {
