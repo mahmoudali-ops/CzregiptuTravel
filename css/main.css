@@ -1122,3 +1122,15 @@ body {
   border-radius: 8px;     /* حواف ناعمة */
   padding: 8px 0;  
 }
+
+.card-body {
+  display: flex;
+  gap: 10px;
+}
+
+.card-body .btn {
+  flex: 1; /* كل زرار ياخد نفس المساحة */
+  white-space: normal;
+  word-break: break-word;
+  text-align: center;
+}
