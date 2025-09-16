@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="To book hotels in hurghada" />
+    <meta name="author" content="" />
+    <title>TITO - Safari</title>
+    <!-- Favicon-->
+    <link href="assets/img/new_logo1.png" rel="icon">
+    <link href="assets/img/new_logo1.png" rel="apple-touch-icon">
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+    <!-- Custom CSS and Bootstrap -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body id="page-top">
+    <!-- Popup Container Help  -->
+    <div class="pop-up-bg" id="pop-up-bg">
+
+        <div id="help-popup" class="popup">
+            <div class="popup-content d-flex flex-column gap-3">
+                <span id="close-popup" class="close-button fs-3">&times;</span>
+                <p data-translate="help-text">If you have not found what you are looking for, please do not hesitate to
+                    write to us and we will help you as soon as possible!</p>
+                <button class="btn border-black btn-book w-100" data-translate="send-whatsapp-btn"><a
+                        href="https://wa.me/+201003985660" class="text-decoration-none">Send WhatsApp</a></button>
+            </div>
+        </div>
+    </div>
+    <!-- End -->
+    <div class="position-fixed" style="bottom: 20px; right: 20px; z-index: 10000;">
+        <a class="navbar-brand text-center text-white" href="https://wa.me/+201003985660">
+            <img src="../assets/img/whatsapp.png" alt="WhatsApp" width="60px" height="60px">
+        </a>
+    </div>
+    <!-- Navigation-->
+
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm" id="mainNav"
+    style="backdrop-filter: blur(12px); background: rgba(0,0,0,0.7);">
+    <div class="container ps-4 pe-4 d-flex align-items-center justify-content-between">
+        <!-- Logo -->
+        <a class="navbar-brand d-flex align-items-center" href="../index.html">
+            <img src="../assets/img/new_logo1.png" alt="..." class="nav-logo" style="height:45px;" />
+        </a>
+
+        <!-- Toggler -->
+        <button class="navbar-toggler text-white border-0" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav text-uppercase ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link px-3 text-warning fw-semibold" href="../index.html" data-translate="home">
+                        <i class="fa-solid fa-house me-1"></i> Home
+                    </a>
+                </li>
+
+                <!-- Trips Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle px-3 text-warning fw-semibold" id="trips" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false" data-translate="trips">
+                        Trips
+                    </a>
+                    <ul class="dropdown-menu border-0 shadow-lg rounded-3">
+                        <li><a class="dropdown-item py-2" href="../travels_cairo.html"
+                                data-translate="boat-trips">Cairo Travel</a></li>
+                        <li><a class="dropdown-item py-2" href="../travels_luxor.html"
+                                data-translate="travel-luxor-card-title">Luxor Travel</a></li>
+                        <li><a class="dropdown-item py-2" href="boattrips.html"
+                                data-translate="travel-cairo-card-title">Sea Trips</a></li>
+                        <li><a class="dropdown-item py-2" href="#" data-translate="safari">Safari</a>
+                        </li>
+                        <li><a class="dropdown-item py-2" href="diving.html" data-translate="diving">Diving</a>
+                        </li>
+                        <li><a class="dropdown-item py-2" href="seaact.html" data-translate="diving">Sea Activities</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item"><a class="nav-link px-3 text-warning fw-semibold" href="../Hotels.html"
+                        data-translate="hotels">Hotels</a></li>
+
+                <!-- City Tours Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle px-3 text-warning fw-semibold" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false" data-translate="city-tours">
+                        City Tours
+                    </a>
+                    <ul class="dropdown-menu border-0 shadow-lg rounded-3">
+                        <li><a class="dropdown-item py-2" href="../CityTours/hurghada.html"
+                                data-translate="hurghada">Hurghada</a></li>
+                        <li><a class="dropdown-item py-2" href="../CityTours/Gouna.html" data-translate="el-gouna">El
+                                Gouna</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item"><a class="nav-link px-3 text-warning fw-semibold" href="../transport.html"
+                        data-translate="travels">Transport</a></li>
+                <li class="nav-item"><a class="nav-link px-3 text-warning fw-semibold" href="../About.html"
+                        data-translate="about">About</a></li>
+
+
+                        <li class="nav-item d-flex align-items-center">
+                            <a href="safari.html" onclick="changeLanguage('en')" class="px-2">
+                              <img src="../assets/img/lang1.png" alt="English" class="flag-icon">
+                            </a>
+                            <a href="#" onclick="changeLanguage('ru')" class="px-2">
+                              <img src="../assets/img/lang2.png" alt="Polski" class="flag-icon">
+                            </a>
+                          </li>
+                          
+
+           
+                  
+               
+            </ul>
+        </div>
+    </div>
+</nav>
+    <!-- End NavBar -->
+
+    <!-- Masthead-->
+    <!-- <header class="masthead">
+        <div class="container">
+            <div class="masthead-subheading">
+                <h1>TITO</h1>
+                <P>RED SEA CLASSIC</P>
+            </div>
+            <div class="masthead-heading ">
+                <p class="text-uppercase">Your Best Choice</p>
+                <a class="btn btn-primary book-btn text-uppercase" href="https://wa.me/+201003985660">book now</a>
+            </div>
+        </div>
+    </header> -->
+    <!-- End Masthead-->
+    <div class="cards my-5">
+        <div class="container">
+            <div class="row d-flex m-auto">
+                <!-- Desert Safari -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card w-100">
+                        <div class="img-info position-relative overflow-hidden">
+                            <img src="../assets/trips img/Desert Safari.jpg" class="card-img-top" alt="...">
+                            <div
+                                class="caption text-center text-white position-absolute text-center d-flex flex-column justify-content-center align-items-center w-100 h-100">
+                                <h1 data-translate="desert_safari">Desert Safari</h1>
+                                <p data-translate="best_price">Best Price For Person</p>
+                                <span class="bg-white w-100 mb-3"></span>
+                                <h3>18.00 EUR</h3>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold" data-translate="desert_safari">Desert Safari</h5>
+                            <p class="card-text ms-4 fst-italic" data-translate="quad_3h">quad 3H</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-capitalize" data-translate="duration">• duration 3 hours
+                            </li>
+                            <li class="list-group-item text-capitalize" data-translate="exciting_experience">•
+                                experience an
+                                exciting, ATV Quad</li>
+                            <li class="list-group-item text-capitalize" data-translate="bedouin_village">• visit a
+                                Bedouin
+                                village in the desert</li>
+                            <li class="list-group-item text-capitalize" data-translate="camels_ride">• Camels ride</li>
+                        </ul>
+                        <div class="card-body d-flex justify-content-center gap-2">
+                            <button class="btn border-black btn-book w-100"><a href="https://wa.me/+201003985660"
+                                    class="text-decoration-none " data-translate="book_now">Book Now</a></button>
+                            <button class="btn border-black btn-book w-100" data-modal="modal2"
+                                data-translate="more_details"> More Details</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Super Desert Safari -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card w-100">
+                        <div class="img-info position-relative overflow-hidden">
+                            <img src="../assets/trips img/safari (1).jpeg" class="card-img-top" alt="...">
+                            <div
+                                class="caption text-center text-white position-absolute text-center d-flex flex-column justify-content-center align-items-center w-100 h-100">
+                                <h1 data-translate="desert_safari_sunset">Desert Safari SunSet</h1>
+                                <p data-translate="best_price">Best Price For Person</p>
+                                <span class="bg-white w-100 mb-3"></span>
+                                <h3>23.00 EUR</h3>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold" data-translate="desert_safari_sunset">Desert Safari SunSet
+                            </h5>
+                            <p class="card-text ms-4 fst-italic" data-translate="your_favourite_trip">Your Favourite
+                                Trip!
+                            </p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-capitalize" data-translate="duration">• duration 5 hours
+                                safari
+                                afternoon</li>
+                            <li class="list-group-item text-capitalize" data-translate="exciting_experience">•
+                                experience an
+                                exciting, ATV Quad</li>
+                            <li class="list-group-item text-capitalize" data-translate="bedouin_village">• visit a
+                                Bedouin
+                                village in the desert</li>
+                            <li class="list-group-item text-capitalize" data-translate="camels_ride">• camels ride</li>
+                            <li class="list-group-item text-capitalize" data-translate="dinner_party">• Dinner + Party
+                            </li>
+                        </ul>
+                        <div class="card-body d-flex justify-content-center gap-2">
+                            <button class="btn border-black btn-book w-100"><a href="https://wa.me/+201003985660"
+                                    class="text-decoration-none " data-translate="book_now">Book Now</a></button>
+                            <button class="btn border-black btn-book w-100" data-modal="super"
+                                data-translate="more_details"> More Details</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Private Desert Safari -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card w-100">
+                        <div class="img-info position-relative overflow-hidden">
+                            <img src="../assets/trips img/safari (2).jpeg" class="card-img-top" alt="...">
+                            <div
+                                class="caption text-center text-white position-absolute text-center d-flex flex-column justify-content-center align-items-center w-100 h-100">
+                                <h1 data-translate="desert_mega_safari">Desert Mega Safari</h1>
+                                <p data-translate="best_price">Best Price For Person</p>
+                                <span class="bg-white w-100 mb-3"></span>
+                                <h3>30.00 EUR</h3>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-capitalize" data-translate="desert_mega_safari">Desert
+                                Mega
+                                Safari</h5>
+                            <p class="card-text ms-4 fst-italic" data-translate="your_favourite_trip">Your Favourite
+                                Trip!
+                            </p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-capitalize" data-translate="duration">• duration 6 hours
+                                safari
+                            </li>
+                            <li class="list-group-item text-capitalize" data-translate="exciting_experience">•
+                                experience an
+                                exciting Jeep, ATV Quad, and Buggy</li>
+                            <li class="list-group-item text-capitalize" data-translate="bedouin_village">• visit a
+                                Bedouin
+                                village in the desert</li>
+                            <li class="list-group-item text-capitalize" data-translate="camels_ride">• camels ride</li>
+                            <li class="list-group-item text-capitalize" data-translate="dinner_party">• dinner + party
+                            </li>
+                        </ul>
+                        <div class="card-body d-flex justify-content-center gap-2">
+                            <button class="btn border-black btn-book w-100"><a href="https://wa.me/+201003985660"
+                                    class="text-decoration-none " data-translate="book_now">Book Now</a></button>
+                            <button class="btn border-black btn-book w-100" data-modal="super"
+                                data-translate="more_details"> More Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <div class="container d-flex justify-content-start">
+                <span class="close ">&times;</span>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 data-translate="safari_title"><i class="fas fa-jeep"></i> Safari by Quad Bike & Camel Ride
+                        </h2>
+                        <p data-translate="safari_desc1">This 3-hour tour is an extremely dusty adventure with absolute
+                            fun guaranteed!</p>
+                        <p data-translate="safari_desc2">The 3 Hour Safari by Quad Bike is a great opportunity to see
+                            the desert in all its beauty and splendor. The Safari by Quad Bike Tour is for those who
+                            want to cross the desert on a four-wheeled ATV.</p>
+                        <p data-translate="safari_desc3">During the Safari by Quad Bike & Camel Ride, you can explore
+                            the life and traditions of the Bedouin village. And also ride a camel and learn interesting
+                            facts about their life in the desert.</p>
+                        <p data-translate="safari_desc4">Memories and impressions of the excursion Safari by Quad Bike &
+                            Camel Ride will stay with you for a long time!</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 data-translate="safari_program_title">Program of 3 Hours Safari by Quad Bike & Camel Ride
+                        </h3>
+                        <table class="table table-striped">
+                            <tr>
+                                <th data-translate="time">Time</th>
+                                <th data-translate="program">Program</th>
+                            </tr>
+                            <tr>
+                                <td data-translate="safari_time1">⏰ 7:30</td>
+                                <td data-translate="safari_prog1">Pick up from the hotel</td>
+                            </tr>
+                            <tr>
+                                <td data-translate="safari_time2">⏰ 8:00</td>
+                                <td data-translate="safari_prog2">Arrival at Safari Station</td>
+                            </tr>
+                            <tr>
+                                <td data-translate="safari_time3">⏰ 11:00</td>
+                                <td data-translate="safari_prog3">Departure to the hotel</td>
+                            </tr>
+                            <tr>
+                                <td data-translate="safari_time4">⏰ 11:30</td>
+                                <td data-translate="safari_prog4">Back in hotel</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 data-translate="safari_desc_title">Description for 3 Hours Safari by Quad Bike & Camel Ride
+                            tour</h3>
+                        <p data-translate="safari_desc5">We will pick you up from your hotel at about 07.30 am and bring
+                            you to the Quad Bike training station...</p>
+                        <p data-translate="safari_desc6">All Quad Bikes have an automatic control system...</p>
+                        <p data-translate="safari_desc7">We drive about 1 hour (approx. 25 km) with Quad Bike until we
+                            arrive at the Bedouin village.</p>
+                        <p data-translate="safari_desc8">Friendly Bedouins will meet and greet you...</p>
+                        <p data-translate="safari_desc9">In the same place you will have the opportunity to ride
+                            camels...</p>
+                        <p data-translate="safari_desc10">After that, we will bring you back to your hotel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="super" class="modal">
+        <div class="modal-content">
+            <div class="container d-flex justify-content-start">
+                <span class="close">&times;</span>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table class="table table-striped">
+                            <tr>
+                                <th data-translate="time">Time</th>
+                                <th data-translate="program">Program</th>
+                            </tr>
+                            <tr>
+                                <td data-translate="time_1430">⏰ 14:30</td>
+                                <td data-translate="pick_up">Pick up from the hotel</td>
+                            </tr>
+                            <tr>
+                                <td data-translate="time_1500">⏰ 15:00</td>
+                                <td data-translate="arrival_safari">Arrival at Safari Station</td>
+                            </tr>
+                            <tr>
+                                <td data-translate="time_1900">⏰ 19:00</td>
+                                <td data-translate="back_hotel">Back in hotel</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 data-translate="description_5hours">Description for 5 Hours Safari by Quad Bike & Camel Ride
+                            tour</h3>
+                        <p data-translate="quad_pickup">We will pick you up from your hotel at about 14:30 am and bring
+                            you to the Quad Bike training station...</p>
+                        <p data-translate="quad_instructions">All Quad Bikes have an automatic control system, so in
+                            order to ride, you just need to apply the gas and the brake...</p>
+                        <p data-translate="quad_drive">We drive about 1 hour (approx. 25 km) with Quad Bike until we
+                            arrive to the Bedouin village...</p>
+                        <p data-translate="bedouin_village">Friendly Bedouins will meet and greet you in the Bedouin
+                            Village...</p>
+                        <p data-translate="camel_ride">In the same place you will have the opportunity to ride camels
+                            and explore the area...</p>
+                        <p data-translate="back_to_hotel">After that, we will bring you back to your hotel.</p>
+                        <p data-translate="dinner_bqq">Dinner + BBQ Party + Dancer Show + Fire Show</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="mega" class="modal">
+        <div class="modal-content">
+            <div class="container d-flex justify-content-start">
+                <span class="close">&times;</span>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table class="table table-striped">
+                            <tr>
+                                <th data-translate="time">Time</th>
+                                <th data-translate="program">Program</th>
+                            </tr>
+                            <tr>
+                                <td data-translate="time_1130">⏰ 11:30</td>
+                                <td data-translate="pick_up">Pick up from the hotel</td>
+                            </tr>
+                            <tr>
+                                <td data-translate="time_1200">⏰ 12:00</td>
+                                <td data-translate="arrival_safari">Arrival at Safari Station</td>
+                            </tr>
+                            <tr>
+                                <td data-translate="time_1900">⏰ 19:00</td>
+                                <td data-translate="back_hotel">Back in hotel</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 data-translate="description_mega_safari">Description for Mega Safari</h3>
+                        <p data-translate="mega_safari_details">• 1 hours quad driving <br> • 20 minute Buggy with jeep
+                            <br>• to Bedouin village tea drink camel riding...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact-->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase" data-translate="contact_us">Contact Us</h2>
+                <h3 class="section-subheading text-muted" data-translate="contact_description">We are at your service.
+                    Do not hesitate to contact us</h3>
+            </div>
+
+            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <div class="row align-items-stretch mb-5">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <!-- Name input-->
+                            <input class="form-control" id="name" type="text" placeholder="Your Name *"
+                                data-translate="your_name" data-sb-validations="required" />
+                            <div class="invalid-feedback" data-sb-feedback="name:required"
+                                data-translate="name_required">A name is required.</div>
+                        </div>
+                        <div class="form-group">
+                            <!-- Email address input-->
+                            <input class="form-control" id="email" type="email" placeholder="Your Email *"
+                                data-translate="your_email" data-sb-validations="required,email" />
+                            <div class="invalid-feedback" data-sb-feedback="email:required"
+                                data-translate="email_required">An email is required.</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email" data-translate="email_invalid">
+                                Email is not valid.</div>
+                        </div>
+                        <div class="form-group mb-md-0">
+                            <!-- Phone number input-->
+                            <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
+                                data-translate="your_phone" data-sb-validations="required" />
+                            <div class="invalid-feedback" data-sb-feedback="phone:required"
+                                data-translate="phone_required">A phone number is required.</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group form-group-textarea mb-md-0">
+                            <!-- Message input-->
+                            <textarea class="form-control" id="message" placeholder="Your Message *"
+                                data-translate="your_message" data-sb-validations="required"></textarea>
+                            <div class="invalid-feedback" data-sb-feedback="message:required"
+                                data-translate="message_required">A message is required.</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Submit success message-->
+                <div class="d-none" id="submitSuccessMessage">
+                    <div class="text-center text-white mb-3">
+                        <div class="fw-bolder" data-translate="form_successful">Form submission successful!</div>
+                        <a aria-label="Chat on WhatsApp" href="https://wa.me/+201003985660">
+                            <img alt="Chat on WhatsApp" src="assets/img/portfolio/WhatsAppButtonGreenLarge.png" />
+                        </a>
+                    </div>
+                </div>
+                <!-- Submit error message-->
+                <div class="d-none" id="submitErrorMessage">
+                    <div class="text-center text-danger mb-3" data-translate="form_error">Error sending message!</div>
+                </div>
+                <!-- Submit Button-->
+                <div class="text-center">
+                    <button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit"
+                        data-translate="send_message">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-start" data-translate="copyright">Copyright &copy; TITO TRAVEL 2024
+                </div>
+                <div class="col-lg-4 my-3 my-lg-0">
+                    <a class="btn btn-dark btn-social mx-2" href="https://web.facebook.com/" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Core JS-->
+    <script src="../js/scripts.js"></script>
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
