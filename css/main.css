@@ -1123,14 +1123,11 @@ body {
   padding: 8px 0;  
 }
 
-.card-body {
-  display: flex;
-  gap: 10px;
-}
-
 .card-body .btn {
-  flex: 1; /* كل زرار ياخد نفس المساحة */
-  white-space: normal;
-  word-break: break-word;
-  text-align: center;
+  white-space: normal;   /* يخلي النص ينزل سطر تاني بدل ما يخرج بره */
+  word-break: break-word; /* يكسر الكلمة الطويلة لو مفيش مسافة */
+  text-align: center;    /* يخلي النص دايمًا في النص */
+  padding: 10px 15px;    /* يدي مساحة حوالين النص */
+  min-width: 120px;      /* أقل عرض للزرار */
+  flex: 1;               /* يخلي الزرار يتمدد بالتساوي */
 }
