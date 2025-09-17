@@ -1082,8 +1082,42 @@ const translations = {
   "travel-luxor-lunch-break": "Potem zjesz obiad w lokalnej restauracji z autentycznymi egipskimi potrawami.",
   "travel-luxor-karnak-visit": "Po obiedzie udamy się do kompleksu Świątyń w Karnaku – największego budowlanego obiektu sakralnego w historii.",
   "travel-luxor-optional-nile": "Dla chętnych dostępny jest opcjonalny rejs po Nilu (dodatkowy koszt).",
-  "travel-luxor-return": "Późnym popołudniem wracamy do Hurghady i dotrzesz do hotelu wieczorem."
+  "travel-luxor-return": "Późnym popołudniem wracamy do Hurghady i dotrzesz do hotelu wieczorem.",
 
+  "ThingToDpO":"Co robić w Hurghadzie",
+  "citytours_section_heading":"Wycieczki po mieście Hurghada - El Gouna",
+    "citytours_section_subheading":"Odkryj fascynujące wycieczki po mieście Hurghada i El Gouna z Czaregiptu TRAVEL. Poznaj bogatą historię, kulturę i atrakcje tych niezwykłych miejsc.",
+    "hurghada_modal_title": "Wycieczka po Hurghadzie - Więcej informacji",
+    "hurghada_modal_program_title": "Program obejmuje:",
+    "hurghada_modal_item1": "• Odbiór i dowóz do hotelu",
+    "hurghada_modal_item2": "• Zwiedzanie Muzeum Narodowego w Hurghadzie",
+    "hurghada_modal_item3": "• Wycieczka po mieście i zakupy",
+    "hurghada_modal_item4": "• Wycieczka z lokalnym przewodnikiem",
+    "hurghada_modal_note": "Ciesz się wycieczką z przewodnikiem, poznając historię i nowoczesne atrakcje Hurghady.",
+    "hurghada_modal_price": "Cena: 25 EUR",
+    "hurghada_modal_book_now": "Zarezerwuj teraz",
+    "hurghada_more_details": "Więcej informacji",
+    "hurghada_modal_title": "Hurghada City Tour - Więcej szczegółów",
+    "hurghada_modal_program_title": "Program obejmuje:",
+    "hurghada_modal_item1": "• Odbiór i dowóz z hotelu",
+    "hurghada_modal_item2": "• Wizyta w Narodowym Muzeum Hurghady",
+    "hurghada_modal_item3": "• Wycieczka po mieście i zakupy",
+    "hurghada_modal_item4": "• Zwiedzanie z lokalnym przewodnikiem",
+    "hurghada_modal_description": "Odkryj różne dzielnice Hurghady podczas tej wycieczki po mieście. Zwiedzaj zarówno tradycyjną starówkę, jak i nowoczesną część miasta. Po odebraniu z hotelu klimatyzowanym pojazdem pojedziesz do wioski rybackiej i zobaczysz oryginalne, proste domy, które mają tylko jedno piętro.\n\nWydaje się, że w tej części miasta czas się zatrzymał. Rybacy wstają o wschodzie słońca i kładą się spać o zachodzie. Życie jest tu proste i tradycyjne. Odwiedzisz stocznię i zobaczysz, jak łodzie rybackie są budowane i odnawiane tradycyjnymi metodami.\n\nNajwiększy meczet w Hurghadzie znajduje się w pobliżu. Tutaj możesz dowiedzieć się więcej o islamie, głównej religii Egiptu. Następnie udasz się do najstarszego kościoła koptyjskiego w mieście. Na końcu wycieczki odwiedzisz duży targ owoców i warzyw, zanim zostaniesz odwieziony z powrotem do hotelu.",
+    "hurghada_modal_price": "Cena: 25 EUR",
+    "hurghada_modal_book_now": "Zarezerwuj teraz",
+    "elgouna_modal_title": "El Gouna - Więcej szczegółów",
+  "elgouna_modal_program_title": "Program obejmuje:",
+  "elgouna_modal_item1": "• Wycieczka laguną",
+  "elgouna_modal_item2": "• Rejs łodzią po kanałach El Gouny",
+  "elgouna_modal_item3": "• Czas wolny na plaży i relaks",
+  "elgouna_modal_item4": "• Zwiedzanie centrum miasta i przystani Abu Tig",
+  "elgouna_modal_description": "Odkryj uroki El Gouny, nowoczesnego kurortu zwanego 'Wenecją nad Morzem Czerwonym'. Podczas tej wycieczki popłyniesz laguną, aby podziwiać piękne kanały i luksusowe wille. Następnie odwiedzisz przystań Abu Tig, gdzie znajdują się eleganckie restauracje, sklepy i jachty. Czeka Cię czas wolny na plaży, kąpiele słoneczne i możliwość uprawiania sportów wodnych. El Gouna oferuje unikalne połączenie relaksu, przyrody i nowoczesnego stylu życia.",
+  "elgouna_modal_note": "Idealna wycieczka dla tych, którzy chcą połączyć zwiedzanie, wypoczynek i poznawanie wyjątkowej atmosfery El Gouny.",
+  "elgouna_modal_price": "Cena: 35 EUR",
+  "elgouna_modal_book_now": "Rezerwuj teraz",
+  "elgouna_modal_more_details": "Więcej szczegółów"
+  
       
       
       
@@ -1108,7 +1142,32 @@ function changeLanguage(language) {
     elements.forEach(element => {
         const key = element.getAttribute('data-translate');
         if (translations[language] && translations[language][key]) {
-            element.textContent = translations[language][key];
+            const translation = translations[language][key];
+
+            // لو عنصر input أو textarea → غير placeholder أو value
+            if (element.tagName === "INPUT" || element.tagName === "TEXTAREA") {
+                if (element.hasAttribute("placeholder")) {
+                    element.placeholder = translation;
+                }
+                if (element.type === "submit" || element.type === "button") {
+                    element.value = translation;
+                }
+            }
+            // لو صورة → غير alt
+            else if (element.tagName === "IMG") {
+                element.alt = translation;
+                if (element.hasAttribute("title")) {
+                    element.title = translation;
+                }
+            }
+            // لو زرار button أو a → غير النص الداخلي
+            else if (element.tagName === "BUTTON" || element.tagName === "A" || element.tagName === "SPAN" || element.tagName === "DIV" || element.tagName === "H1" || element.tagName === "H2" || element.tagName === "P" || element.tagName === "LI") {
+                element.textContent = translation;
+            }
+            // fallback عام
+            else {
+                element.textContent = translation;
+            }
         }
     });
 }
@@ -1117,4 +1176,5 @@ document.addEventListener("DOMContentLoaded", function () {
     const savedLang = localStorage.getItem("selectedLanguage") || "en";
     changeLanguage(savedLang);
 });
+
 
