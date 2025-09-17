@@ -160,7 +160,7 @@ const translations = {
         "call-or-whatsapp": "Zadzwoń lub WhatsApp: +201552378066",
         "home": "Strona główna",
         "trips": "Wycieczki",
-        "boat-trips": "Rejsy łodzią",
+        "boat-trips": "Podróż do Kairu",
         "safari": "Safari",
         "diving": "Nurkowanie",
         "hotels": "Hotele",
@@ -172,9 +172,9 @@ const translations = {
         "language": "Język",
         "english": "Angielski",
         "russian": "polszczyzna",
-        "carousel-title": "Czaregiptu MORZE CZERWONE",
+        "carousel-title": "Czar Egiptu MORZE CZERWONE",
         "carousel-subtitle": "Najlepsze nad Morzem Czerwonym",
-        "welcome": "Witamy w Czaregiptu Travel",
+        "welcome": "Witamy w Czar Egiptu Travel",
         "intro-text": "Rezerwuj swoje wycieczki w Egipcie online. Oferujemy szeroki wybór wycieczek i atrakcji w Egipcie oraz bilety do najpopularniejszych zabytków.Jesteśmy dla Was obecni, pomożemy w wyborze wycieczek po Egipcie, dopasujemy do Waszych potrzeb i preferencji",
         
         "free-cancellation": "Bezpłatne anulowanie",
@@ -406,7 +406,7 @@ const translations = {
       "form_successful": "Formularz został pomyślnie wysłany!",
       "form_error": "Błąd podczas wysyłania wiadomości!",
       "send_message": "Wyślij wiadomość",
-      "copyright": "Prawa autorskie &copy; Czaregiptu TRAVEL 2024",
+      "copyright": "Prawa autorskie &copy; Czar Egiptu TRAVEL 2024",
       "travelLuxor": "Luksor",
       "travelPriceForPerson": "Najlepsza cena za osobę",
       "travelPrice60EUR": "60.00 EUR",
@@ -530,13 +530,13 @@ const translations = {
       "private-cairo-more-details": "Więcej szczegółów",
       
       "TransferAirportTaxiServices": "Transfer z lotniska | Usługi taksówkowe w Hurghadzie",
-      "TransferNeedTransportation": "Potrzebujesz transferu na lub z lotniska w Hurghadzie? Prywatny transfer na lotnisko w Hurghadzie lub z lotniska! Zrelaksuj się i zarezerwuj komfortowy pojazd z Czaregiptu Travel. Możesz także zarezerwować minivana lub mały autobus dla rodzin lub grup.",
+      "TransferNeedTransportation": "Potrzebujesz transferu na lub z lotniska w Hurghadzie? Prywatny transfer na lotnisko w Hurghadzie lub z lotniska! Zrelaksuj się i zarezerwuj komfortowy pojazd z Czar Egiptu Travel. Możesz także zarezerwować minivana lub mały autobus dla rodzin lub grup.",
       "TransferInTime": "Punktualność",
       "TransferSafety": "Bezpieczeństwo",
       "TransferTrustful": "Zaufanie",
       "TransferHighQuality": "Wysoka jakość",
-      "TransferWeDriveComfortably": "Zawieziemy Cię komfortowo i bezpiecznie prosto z lotniska do hotelu. Jeśli Twój lot się zmieni lub opóźni, nie martw się, śledzimy to w systemie. Czaregiptu Travel oferuje wygodny i przyjemny transfer z lotniska. Przy wyjściu z lotniska czeka na Ciebie przewodnik z tabliczką z Twoim imieniem. Transfer Czaregiptu to nowoczesna usługa, która zapewnia Tobie i Twoim współtowarzyszom podróży bezstresowy i niedrogi przejazd z lotniska do hotelu i z powrotem.",
-      "TransferHowToBook": "Jak zarezerwować transfer z Czaregiptu Travel?",
+      "TransferWeDriveComfortably": "Zawieziemy Cię komfortowo i bezpiecznie prosto z lotniska do hotelu. Jeśli Twój lot się zmieni lub opóźni, nie martw się, śledzimy to w systemie. Czar Egiptu Travel oferuje wygodny i przyjemny transfer z lotniska. Przy wyjściu z lotniska czeka na Ciebie przewodnik z tabliczką z Twoim imieniem. Transfer Czar Egiptu to nowoczesna usługa, która zapewnia Tobie i Twoim współtowarzyszom podróży bezstresowy i niedrogi przejazd z lotniska do hotelu i z powrotem.",
+      "TransferHowToBook": "Jak zarezerwować transfer z Czar Egiptu Travel?",
       "TransferInquiry": "Zapytanie",
       "TransferSendRouteDetails": "Prześlij nam swoją trasę lub dane lotu. Możesz skontaktować się z nami na różne sposoby, np. e-mailem.",
       "TransferContactConfirmation": "Kontakt i potwierdzenie",
@@ -563,7 +563,7 @@ const translations = {
       "TransferToSomaBay": "Soma Bay",
       "TransferPriceFrom20": "od 20 €",
       "TransferPriceFrom25": "od 25 €",
-      "TransferAdvantagesWithCzaregiptu": "Nasi klienci korzystają z następujących zalet transferów z Czaregiptu Travel:",
+      "TransferAdvantagesWithCzaregiptu": "Nasi klienci korzystają z następujących zalet transferów z Czar Egiptu Travel:",
       "TransferFixedPrice": "Stała cena",
       "TransferLotsOfVehicles": "Duży wybór pojazdów",
       "TransferComfort": "Komfort",
@@ -571,14 +571,14 @@ const translations = {
       "TransferSafety": "Bezpieczeństwo",
       
       "hotelpageCities": "Miasta",
-      "hotelpageSubheading": "Zaoszczędź na następnej podróży z Czaregiptu TRAVEL. Znajdź świetne oferty na hotele lub apartamenty i zarezerwuj w kilka minut.",
+      "hotelpageSubheading": "Zaoszczędź na następnej podróży z Czar Egiptu TRAVEL. Znajdź świetne oferty na hotele lub apartamenty i zarezerwuj w kilka minut.",
       "hotelpageHurghada": "Hurghada",
       "hotelpageAboutUs": "O nas",
-      "hotelpageMission": "Czaregiptu TRAVEL – TWOJE SZCZĘŚCIE NASZĄ MISJĄ",
-      "hotelpageVacationPlanning": "Planujesz wakacje? Niech Czaregiptu TRAVEL będzie Twoim pierwszym przystankiem. Odkryj nasz świat niesamowitych kurortów i wycieczek w Hurghadzie.",
-      "hotelpageExperience": "Każdy pobyt z Czaregiptu TRAVEL to doświadczenie jak żadne inne. Twórz wspomnienia, które przetrwają całe życie, podróżując z nami po lądzie lub wodzie. Zapewniamy, że przekroczymy Twoje oczekiwania. Obiecujemy powrót, aby stworzyć kolejne szczęśliwe wspomnienia.",
+      "hotelpageMission": "Czar Egiptu TRAVEL – TWOJE SZCZĘŚCIE NASZĄ MISJĄ",
+      "hotelpageVacationPlanning": "Planujesz wakacje? Niech Czar Egiptu TRAVEL będzie Twoim pierwszym przystankiem. Odkryj nasz świat niesamowitych kurortów i wycieczek w Hurghadzie.",
+      "hotelpageExperience": "Każdy pobyt z Czar Egiptu TRAVEL to doświadczenie jak żadne inne. Twórz wspomnienia, które przetrwają całe życie, podróżując z nami po lądzie lub wodzie. Zapewniamy, że przekroczymy Twoje oczekiwania. Obiecujemy powrót, aby stworzyć kolejne szczęśliwe wspomnienia.",
       "hotelpageWelcome": "Witamy w naszej firmie! Jesteśmy Twoim punktem kontaktowym do rezerwacji hoteli i różnych wycieczek w pięknym mieście Hurghada. Z pasją do podróży i zaangażowaniem w wyjątkową obsługę dążymy do tego, aby Twój pobyt w Hurghadzie był niezapomniany.",
-      "hotelpageContactUs": "Dołącz do wielkiej rodziny Czaregiptu TRAVEL. Nie wahaj się z nami skontaktować. Zarezerwuj już teraz swój kolejny cel podróży.",
+      "hotelpageContactUs": "Dołącz do wielkiej rodziny Czar Egiptu TRAVEL. Nie wahaj się z nami skontaktować. Zarezerwuj już teraz swój kolejny cel podróży.",
       "hotelpageValues": "Nasze wartości można podsumować następująco:",
       "hotelpageToursInEgypt": "Wycieczki po Egipcie",
       "hotelpageVarietyOfTours": "Oferujemy szeroki wybór wycieczek z różnymi trasami po Egipcie.",
@@ -699,7 +699,7 @@ const translations = {
         "fast_trip": "Szybka podróż (oszczędność czasu)",
         "drift_dive": "Planowanie zawsze z prądem (drift)",
         "citytourhurghada_hurghada": "Hurghada",
-        "citytourhurghada_save_on_trip": "Oszczędź na następnej podróży z Czaregiptu TRAVEL. Znajdź świetne oferty hoteli lub apartamentów i zarezerwuj w kilka minut.",
+        "citytourhurghada_save_on_trip": "Oszczędź na następnej podróży z Czar Egiptu TRAVEL. Znajdź świetne oferty hoteli lub apartamentów i zarezerwuj w kilka minut.",
         "citytourhurghada_card_title": "Hurghada",
         "citytourhurghada_best_price": "Najlepsza cena za osobę",
         "citytourhurghada_price": "25 EUR",
@@ -937,7 +937,7 @@ const translations = {
       "boattrips_not_included_personal_items": "Przedmioty osobiste, posiłki, napoje lub usługi, które nie zostały wymienione",
       
       "elgouna_section_heading": "El Gouna",
-      "elgouna_section_subheading": "Oszczędzaj podczas swojej następnej podróży z Czaregiptu TRAVEL. Znajdź świetne oferty hoteli lub apartamentów i zarezerwuj w zaledwie kilka minut.",
+      "elgouna_section_subheading": "Oszczędzaj podczas swojej następnej podróży z Czar Egiptu TRAVEL. Znajdź świetne oferty hoteli lub apartamentów i zarezerwuj w zaledwie kilka minut.",
       "elgouna_private_tour_program_title": "Program prywatnej wycieczki po El Gouna",
       "elgouna_private_tour_program_items0": "• Rejs po lagunie",
       "elgouna_private_tour_program_items1": "• Wieża El Gouna",
@@ -996,14 +996,14 @@ const translations = {
         "travel-luxor-title": "Luksor",
         "travel-luxor-best-price": "Najlepsza cena za osobę",
         "travel-luxor-price": "70.00 EUR",
-        "travel-luxor-card-title": "Wycieczka do Luksoru i lot balonem",
+        "travel-luxor-card-title": "Podróż do Luksoru",
         "travel-luxor-favorite-trip": "Twoja ulubiona wycieczka!",
         "travel-luxor-book-now": "Zarezerwuj",
         "travel-luxor-more-details": "szczegółów",
         "travel-luxor-title": "Luksor",
-  "travel-luxor-best-price": "Najlepsza cena za osobę",
+  "travel-luxor-best-price": "Najlepsza cena za osobę", 
   "travel-luxor-price": "70.00 EUR",
-  "travel-luxor-card-title": "Wycieczka do Luksoru w małej grupie",
+  "travel-luxor-card-title": "Podróż do Luksoru",
   "travel-luxor-favorite-trip": "Twoja ulubiona wycieczka!",
   "travel-luxor-book-now": "Zarezerwuj",
   "travel-luxor-more-details": "szczegółów",
@@ -1086,7 +1086,7 @@ const translations = {
 
   "ThingToDpO":"Co robić w Hurghadzie",
   "citytours_section_heading":"Wycieczki po mieście Hurghada - El Gouna",
-    "citytours_section_subheading":"Odkryj fascynujące wycieczki po mieście Hurghada i El Gouna z Czaregiptu TRAVEL. Poznaj bogatą historię, kulturę i atrakcje tych niezwykłych miejsc.",
+    "citytours_section_subheading":"Odkryj fascynujące wycieczki po mieście Hurghada i El Gouna z Czar Egiptu TRAVEL. Poznaj bogatą historię, kulturę i atrakcje tych niezwykłych miejsc.",
     "hurghada_modal_title": "Wycieczka po Hurghadzie - Więcej informacji",
     "hurghada_modal_program_title": "Program obejmuje:",
     "hurghada_modal_item1": "• Odbiór i dowóz do hotelu",
@@ -1116,17 +1116,10 @@ const translations = {
   "elgouna_modal_note": "Idealna wycieczka dla tych, którzy chcą połączyć zwiedzanie, wypoczynek i poznawanie wyjątkowej atmosfery El Gouny.",
   "elgouna_modal_price": "Cena: 35 EUR",
   "elgouna_modal_book_now": "Rezerwuj teraz",
-  "elgouna_modal_more_details": "Więcej szczegółów"
+  "elgouna_modal_more_details": "Więcej szczegółów",
+  "Sea Trips":"Wycieczki morskie"
   
       
-      
-      
-      
-      
-      
-      
-
-
 
     }
 };
