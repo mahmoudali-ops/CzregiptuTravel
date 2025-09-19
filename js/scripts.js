@@ -1116,7 +1116,7 @@ const translations = {
   "elgouna_modal_book_now": "Rezerwuj teraz",
   "elgouna_modal_more_details": " szczegółów",
   "Sea Trips":"Wycieczki morskie",
-  "holahola_island": "Wyspa Hola Hola",
+  "holahola_island": "Wyspa Hula Hola",
   "best_price_holahola": "Najlepsza cena za osobę",
   "holahola_fav_trip": "Unikalne doświadczenie Morza Czerwonego!",
   "holahola_duration": "• Czas trwania 7 - 8 godzin",
@@ -2216,7 +2216,7 @@ const translations = {
       "elgouna_modal_more_details": "Mehr Details",
       
       "Sea Trips": "Bootsausflüge",
-      "holahola_island": "Hola Hola Insel",
+      "holahola_island": "Hula Hula Insel",
       "best_price_holahola": "Bester Preis pro Person",
       "holahola_fav_trip": "Einzigartiges Rotes Meer Erlebnis!",
       "holahola_duration": "• Dauer: 7 - 8 Stunden",
