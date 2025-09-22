@@ -1138,9 +1138,3 @@ body {
   -webkit-backdrop-filter: blur(12px); /* دعم iOS */
   backdrop-filter: blur(12px);
 }
-.nav-logo {
-  height: 40px;
-  max-height: 40px;
-  width: auto;
-  object-fit: contain;
-}
