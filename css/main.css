@@ -1131,4 +1131,16 @@ body {
   min-width: 120px;      /* أقل عرض للزرار */
   flex: 1;               /* يخلي الزرار يتمدد بالتساوي */
 }
-
+#mainNav .container-fluid {
+  flex-wrap: nowrap !important;
+}
+#mainNav {
+  -webkit-backdrop-filter: blur(12px); /* دعم iOS */
+  backdrop-filter: blur(12px);
+}
+.nav-logo {
+  height: 40px;
+  max-height: 40px;
+  width: auto;
+  object-fit: contain;
+}
