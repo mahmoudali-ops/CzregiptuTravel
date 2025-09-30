@@ -1149,6 +1149,15 @@ const translations = {
   "travel-luxor-price2": "175.00 EUR", 
   "travel-luxor-price3": "75.00 EUR",
   "travel-luxor-price4": "160.00 EUR",
+  "hurghada_hotels_page_title": "Hotele w Hurghadzie",
+  "hurghada_hotel1_title": "Steigenberger Al Dau Beach",
+  "hurghada_hotel1_desc": "Luksusowy kurort z prywatną plażą, basenami i restauracjami światowej klasy.",
+  "hurghada_hotel2_title": "SUNRISE Crystal Bay",
+  "hurghada_hotel2_desc": "5-gwiazdkowy hotel all inclusive z zapierającym dech w piersiach widokiem na Morze Czerwone.",
+  "hurghada_hotel3_title": "Hilton Hurghada Plaza",
+  "hurghada_hotel3_desc": "Nowoczesny komfort, centrum spa i doskonała lokalizacja w centrum Hurghady.",
+  "hurghada_hotels_section_title": "Odkryj hotele w Hurghadzie",
+  "hurghada_hotels_desc": "Hurghada oferuje szeroką gamę hoteli – od luksusowych kurortów z prywatnymi plażami po tanie noclegi. Niezależnie od tego, czy szukasz relaksu, przygody czy życia nocnego, znajdziesz tu idealne zakwaterowanie."
 
       
 
@@ -2245,7 +2254,16 @@ const translations = {
       "mini_egypt_details_2": "• Geführte Tour inklusive",
       "mini_egypt_details_3": "• Abholung und Rücktransfer vom Hotel",
       "book_now": "Jetzt buchen",
-      "best_price": "Bester Preis pro Person"
+      "best_price": "Bester Preis pro Person",
+      "hurghada_hotels_page_title": "Hotels in Hurghada",
+      "hurghada_hotel1_title": "Steigenberger Al Dau Beach",
+      "hurghada_hotel1_desc": "Luxuriöses Resort mit Privatstrand, Pools und erstklassigen Restaurants.",
+      "hurghada_hotel2_title": "SUNRISE Crystal Bay",
+      "hurghada_hotel2_desc": "5-Sterne-All-inclusive-Hotel mit atemberaubendem Blick auf das Rote Meer.",
+      "hurghada_hotel3_title": "Hilton Hurghada Plaza",
+      "hurghada_hotel3_desc": "Moderner Komfort, Wellnesseinrichtungen und zentrale Lage in Hurghada.",
+      "hurghada_hotels_section_title": "Entdecke die Hotels in Hurghada",
+      "hurghada_hotels_desc": "Hurghada bietet eine große Auswahl an Hotels – von luxuriösen Resorts mit Privatstränden bis hin zu preiswerten Unterkünften. Egal ob Sie Entspannung, Abenteuer oder Nachtleben suchen, in Hurghada finden Sie die perfekte Unterkunft."
       
       
       
