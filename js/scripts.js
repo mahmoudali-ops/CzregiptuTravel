@@ -358,7 +358,7 @@ const translations = {
       "price2_people": "4-5 osób",
       "price2_vehicle": "Prywatny minibus",
       "price2_amount": "10 € za osobę",
-      "duration": "Czas trwania",
+      "duration": "Czas trwania 7 - 8 godzin",
       "trip_type": "Rodzaj wycieczki",
       "availability": "Dostępność",
       "pickup_time": "Godzina odbioru",
@@ -826,7 +826,7 @@ const translations = {
       "boattrips_glassboat_title": "Prywatna łódź ze szklanym dnem",
       "boattrips_glassboat_price": "100,00 EUR",
       "boattrips_glassboat_title_small": "Prywatna łódź ze szklanym dnem",
-      "boattrips_duration": "• Czas trwania - 3 godziny",
+      "boattrips_duration": "• Czas trwania 7 - 8 godziny",
       "boattrips_life_jacket": "• Kamizelka ratunkowa",
       "boattrips_snorkeling_equipment": "• Sprzęt do nurkowania z rurką",
       "boattrips_book_now": "Zarezerwuj",
@@ -1411,7 +1411,8 @@ const translations = {
   "safaga_amwaj_fitness": "Centrum fitness",
   "safaga_amwaj_bar": "Bar",
   "safaga_amwaj_private_beach": "Prywatna plaża",
-  "safaga_amwaj_breakfast": "Śniadanie"
+  "safaga_amwaj_breakfast": "Śniadanie",
+    "durationd":"Czas trwania 7 - 8 godzin"
   
 
 
@@ -1429,6 +1430,8 @@ const translations = {
     },
 
     gr:{
+        "durationd":"Dauer - 7 - 8 Stunden",
+
         "safaga_amwaj_desc1": "Das Amwaj Beach Club Abu Soma in Safaga ist eine luxuriöse Unterkunft mit Blick auf das Rote Meer und einen Privatstrand. Im Garten befinden sich zwei Swimmingpools sowie ein Fitnessstudio und ein Spa.",
         "safaga_amwaj_desc2": "Alle Zimmer im Amwaj Beach Club Abu Soma verfügen über einen privaten Balkon oder eine Terrasse mit Blick auf die Soma-Bucht oder die Hotelgärten und Swimmingpools. Sie sind klimatisiert und mit Sat-TV sowie einem Haartrockner ausgestattet.",
         "safaga_amwaj_desc3": "Gäste des Amwaj Beach Club Abu Soma können im Culina Restaurant speisen, außerdem gibt es eine Poolbar mit Snacks und Getränken.",
@@ -2382,7 +2385,7 @@ const translations = {
       "boattrips_glassboat_title": "Privates Glasbodenboot",
       "boattrips_glassboat_price": "100,00 EUR",
       "boattrips_glassboat_title_small": "Privates Glasbodenboot",
-      "boattrips_duration": "• Dauer - 3 Stunden",
+      "boattrips_duration": "• Dauer - 7 - 8 Stunden",
       "boattrips_life_jacket": "• Rettungsweste",
       "boattrips_snorkeling_equipment": "• Schnorchelausrüstung",
       "boattrips_book_now": "Jetzt buchen",
