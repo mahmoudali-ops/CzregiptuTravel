@@ -1840,3 +1840,396 @@ body {
     font-size: 0.9rem;
   }
 }
+
+/* Hero Section */
+.cairo-hero {
+  height: 60vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.cairo-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(75%);
+}
+
+.cairo-hero-title {
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+/* Carousel */
+.cairo-carousel .swiper {
+  width: 100%;
+  height: 400px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.cairo-carousel img {
+  object-fit: cover;
+}
+
+/* Booking Form */
+.cairo-form {
+  border-radius: 12px;
+}
+
+.cairo-btn {
+  background-color: #d4af37;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  transition: 0.3s;
+}
+
+.cairo-btn:hover {
+  background-color: #b38f2f;
+}
+
+/* Description Section */
+.cairo-content {
+  max-width: 900px;
+}
+
+.cairo-subtitle {
+  color: #c0932f;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cairo-list {
+  margin-left: 1.5rem;
+  line-height: 1.8;
+}
+
+.cairo-content p {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cairo-hero-title {
+    font-size: 2rem;
+  }
+
+  .cairo-carousel .swiper {
+    height: 300px;
+  }
+}
+
+/* Cairo Hero Section */
+.cairo-hero {
+  height: 60vh;
+  min-height: 450px;
+  overflow: hidden;
+}
+
+.cairo-hero-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+  transition: transform 6s ease;
+}
+
+.cairo-hero:hover .cairo-hero-img {
+  transform: scale(1.05);
+}
+
+
+.cairo-hero-content {
+  z-index: 2;
+  max-width: 700px;
+}
+
+/* Title & Subtitle */
+.cairo-hero-title {
+  font-size: 2.5rem;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  letter-spacing: 1px;
+}
+
+.cairo-hero-subtitle {
+  font-size: 1.1rem;
+  color: #f8f9fa;
+  text-shadow: 0 3px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* 🔹 Animations */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.cairo-hero-title {
+  animation: fadeInUp 1s ease forwards;
+}
+
+.cairo-hero-subtitle {
+  animation: fadeInUp 1.3s ease forwards;
+}
+
+/* 🔹 Responsive adjustments */
+@media (max-width: 992px) {
+  .cairo-hero-title {
+    font-size: 2rem;
+  }
+  .cairo-hero-subtitle {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .cairo-hero {
+    height: 70vh;
+    min-height: 380px;
+  }
+  .cairo-hero-title {
+    font-size: 1.6rem;
+  }
+  .cairo-hero-subtitle {
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
+}
+
+
+.cairo-carousel {
+  width: 100%;
+  height: 420px;
+}
+
+.cairo-carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cairo-carousel {
+    height: 280px;
+  }
+}
+.luxor-content {
+  line-height: 1.8;
+}
+
+.luxor-subtitle {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #0a3d62;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.luxor-list {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.luxor-list li {
+  margin-bottom: 0.5rem;
+}
+
+.luxor-tour-info li {
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+}
+
+.luxor-section-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #145a32;
+  margin-top: 1.3rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .luxor-subtitle {
+    font-size: 1.3rem;
+  }
+  .luxor-section-title {
+    font-size: 1.1rem;
+  }
+}
+
+.cairo-hero {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.cairo-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* الصورة تملأ المساحة */
+  object-position: center;
+}
+
+
+.cairo-hero-content {
+  z-index: 2;
+}
+
+.cairo-hero-title {
+  font-size: 3rem;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+  .cairo-hero {
+    height: 70vh;
+  }
+
+  .cairo-hero-title {
+    font-size: 1.8rem;
+  }
+}
+/* ===== Booking Form Styling ===== */
+.cairo-form {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.cairo-form:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.cairo-form-title {
+  font-size: 1.5rem;
+  color: #1e3a8a;
+  position: relative;
+}
+
+.cairo-form-title::after {
+  content: "";
+  width: 40px;
+  height: 3px;
+  background: #fbbf24;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+/* Inputs */
+.cairo-input {
+  border: 1px solid #ddd;
+  padding: 10px 14px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.cairo-input:focus {
+  border-color: #1e3a8a;
+  box-shadow: 0 0 0 0.25rem rgba(30, 58, 138, 0.15);
+}
+
+/* Button */
+.cairo-btn {
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 0;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.cairo-btn:hover {
+  background: linear-gradient(135deg, #3b82f6, #1e3a8a);
+  transform: translateY(-2px);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .cairo-form {
+    margin-top: 2rem;
+    padding: 1.5rem;
+  }
+
+  .cairo-form-title {
+    font-size: 1.3rem;
+  }
+
+  .cairo-btn {
+    font-size: 0.95rem;
+  }
+}
+
+/* ===== Footer Styling ===== */
+.footer {
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: #f1f5f9;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Decorative light gradient line */
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #fbbf24, transparent);
+}
+
+/* Brand */
+.footer-brand {
+  color: #fbbf24;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+/* Links */
+.footer-link {
+  color: #f1f5f9;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #fbbf24;
+}
+
+/* Social Buttons */
+.btn-social {
+  background-color: #776331;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #f1f5f9;
+  transition: all 0.3s ease;
+}
+
+.btn-social:hover {
+  background-color: #fbbf24;
+  color: #fbfcfe;
+  transform: translateY(-3px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer-brand {
+    font-size: 1.1rem;
+  }
+}

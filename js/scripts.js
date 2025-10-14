@@ -155,6 +155,44 @@ window.onclick = function (event) {
 const translations = {
  
     ru: {
+      "travelProgramCairoSmallGroup": "Wycieczka w małej grupie po Kairze",
+      "luxor_highlights_title": "Najważniejsze atrakcje",
+  "luxor_highlight_1": "Zrelaksuj się w klimatyzowanym transporcie bezpośrednio z hotelu",
+  "luxor_highlight_2": "Odkryj Dolinę Królów i zobacz świątynię w Karnaku",
+  "luxor_highlight_3": "Odwiedź świątynię Hatszepsut i Kolosy Memnona",
+  "luxor_highlight_4": "Ciesz się pysznym egipskim lunchem",
+
+  "luxor_about_title": "O tej wycieczce",
+  "luxor_price_label": "Cena wycieczki:",
+  "luxor_price_value": "80€ / za osobę",
+  "luxor_location_label": "Lokalizacja wycieczki:",
+  "luxor_location_value": "Luksor",
+  "luxor_length_label": "Czas trwania wycieczki:",
+  "luxor_length_value": "12 godzin",
+  "luxor_pickup_label": "Miejsce odbioru:",
+  "luxor_pickup_value": "Twój hotel",
+  "luxor_guide_label": "Przewodnik:",
+  "luxor_guide_value": "Angielski, Niemiecki",
+  "luxor_cancel_label": "Zasady anulowania:",
+  "luxor_cancel_value": "Pełny zwrot kosztów w przypadku anulowania do 24 godzin wcześniej",
+
+  "luxor_description_title": "Opis",
+  "luxor_description_intro": "Wycieczka do Luksoru, świątynia w Karnaku, Dolina Królów, świątynia Hatszepsut, Kolosy Memnona, zwiedzanie Luksoru.",
+  "luxor_description_1": "Odkryj skarby starożytnego Egiptu podczas całodniowej wycieczki z Hurghady do Luksoru z doświadczonym przewodnikiem. Rozpocznij swoją przygodę od wygodnego odbioru z hotelu i klimatyzowanego przejazdu przez pustynię do Luksoru, często nazywanego największym muzeum na świeżym powietrzu na świecie.",
+
+  "luxor_karnak_title": "Świątynia w Karnaku",
+  "luxor_karnak_desc": "Rozpocznij wycieczkę od imponującego kompleksu świątyń w Karnaku, największego miejsca kultu w starożytnym świecie. Przejdź przez ogromną salę kolumnową i dowiedz się, jak kolejne pokolenia faraonów rozbudowywały to święte miejsce przez ponad dwa tysiące lat.",
+
+  "luxor_memnon_title": "Kolosy Memnona",
+  "luxor_memnon_desc": "Kontynuuj na Zachodnim Brzegu, aby zobaczyć Kolosy Memnona – dwa ogromne posągi, które stoją na straży od ponad 3 400 lat. Zrób niezapomniane zdjęcia i poznaj fascynującą historię tych monumentalnych strażników.",
+
+  "luxor_hatshepsut_title": "Świątynia Hatszepsut",
+  "luxor_hatshepsut_desc": "Odwiedź wspaniałą świątynię Hatszepsut, zbudowaną dla najpotężniejszej kobiety-faraona Egiptu. Ta imponująca tarasowa budowla harmonijnie wtapia się w klify i jest jednym z najbardziej niezwykłych osiągnięć architektonicznych Luksoru.",
+
+  "luxor_lunch_title": "Lunch i relaks",
+  "luxor_lunch_desc": "Ciesz się tradycyjnym egipskim obiadem w lokalnej restauracji, ze świeżo przygotowanymi potrawami i orzeźwiającymi napojami, aby nabrać sił przed dalszą podróżą.",
+
+  "luxor_end_desc": "Na zakończenie tej jednodniowej wycieczki do Luksoru z Hurghady zrelaksuj się podczas powrotu, zachowując niezapomniane wspomnienia o świątyniach, faraonach i ponadczasowej historii wzdłuż Nilu.",
         "help-text": "Jeśli nie znalazłeś tego, czego szukasz, nie wahaj się do nas napisać, a pomożemy Ci tak szybko, jak to możliwe!",
         "send-whatsapp-btn": "Wyślij WhatsApp",
         "call-or-whatsapp": "Zadzwoń lub WhatsApp: +201552378066",
@@ -1430,6 +1468,44 @@ const translations = {
     },
 
     gr:{
+      "travelProgramCairoSmallGroup":"Kairo-Reiseprogramm für kleine Gruppen",
+        "luxor_highlights_title": "Höhepunkte",
+        "luxor_highlight_1": "Entspannen Sie sich mit klimatisiertem Transport direkt von Ihrem Hotel",
+        "luxor_highlight_2": "Erkunden Sie das Tal der Könige und sehen Sie den Karnak-Tempel",
+        "luxor_highlight_3": "Besuchen Sie den Tempel der Hatschepsut und die Kolosse von Memnon",
+        "luxor_highlight_4": "Genießen Sie ein köstliches ägyptisches Mittagessen",
+      
+        "luxor_about_title": "Über diese Tour",
+        "luxor_price_label": "Tourpreis:",
+        "luxor_price_value": "80€ / pro Person",
+        "luxor_location_label": "Tourort:",
+        "luxor_location_value": "Luxor",
+        "luxor_length_label": "Tourdauer:",
+        "luxor_length_value": "12 Stunden",
+        "luxor_pickup_label": "Abholpunkt:",
+        "luxor_pickup_value": "Ihr Hotel",
+        "luxor_guide_label": "Reiseführer:",
+        "luxor_guide_value": "Englisch, Deutsch",
+        "luxor_cancel_label": "Stornierungsrichtlinie:",
+        "luxor_cancel_value": "Volle Rückerstattung bei Stornierung bis zu 24 Stunden im Voraus",
+      
+        "luxor_description_title": "Beschreibung",
+        "luxor_description_intro": "Luxor-Tour, Karnak-Tempel, Tal der Könige, Tempel der Hatschepsut, Kolosse von Memnon, Luxor-Ausflug.",
+        "luxor_description_1": "Entdecken Sie die Schätze des alten Ägypten auf dieser ganztägigen Hurghada-nach-Luxor-Tour mit einem erfahrenen Reiseleiter. Beginnen Sie Ihr Abenteuer mit einer bequemen Hotelabholung und einer komfortablen, klimatisierten Fahrt durch die Wüste nach Luxor, das oft als das größte Freilichtmuseum der Welt bezeichnet wird.",
+      
+        "luxor_karnak_title": "Karnak-Tempel",
+        "luxor_karnak_desc": "Beginnen Sie Ihre Tour im beeindruckenden Karnak-Tempelkomplex, der größten religiösen Stätte der antiken Welt. Gehen Sie durch die riesige Säulenhalle und erfahren Sie, wie Generationen von Pharaonen diesen heiligen Ort über mehr als zweitausend Jahre erweitert haben.",
+      
+        "luxor_memnon_title": "Kolosse von Memnon",
+        "luxor_memnon_desc": "Setzen Sie Ihre Tour auf der Westbank fort und sehen Sie die Kolosse von Memnon, zwei riesige Statuen, die seit über 3.400 Jahren Wache halten. Machen Sie unvergessliche Fotos und hören Sie die faszinierende Geschichte dieser monumentalen Wächter.",
+      
+        "luxor_hatshepsut_title": "Tempel der Hatschepsut",
+        "luxor_hatshepsut_desc": "Besuchen Sie den prächtigen Tempel der Hatschepsut, der für die mächtigste weibliche Pharaonin Ägyptens erbaut wurde. Diese atemberaubende terrassenförmige Struktur fügt sich harmonisch in die Klippen ein und ist eines der bemerkenswertesten architektonischen Meisterwerke Luxors.",
+      
+        "luxor_lunch_title": "Mittagessen und Entspannung",
+        "luxor_lunch_desc": "Genießen Sie ein traditionelles ägyptisches Buffet-Mittagessen in einem lokalen Restaurant mit frisch zubereiteten Gerichten und erfrischenden Getränken, um sich vor der Weiterreise zu stärken.",
+      
+        "luxor_end_desc": "Am Ende dieses Luxor-Tagesausflugs von Hurghada entspannen Sie sich auf Ihrer Rückfahrt mit unvergesslichen Erinnerungen an Tempel, Pharaonen und zeitlose Geschichte entlang des Nils.",
         "durationd":"Dauer - 7 - 8 Stunden",
 
         "safaga_amwaj_desc1": "Das Amwaj Beach Club Abu Soma in Safaga ist eine luxuriöse Unterkunft mit Blick auf das Rote Meer und einen Privatstrand. Im Garten befinden sich zwei Swimmingpools sowie ein Fitnessstudio und ein Spa.",
@@ -2888,3 +2964,46 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+// Swiper setup
+const swiper = new Swiper(".mySwiper", {
+    pagination: { el: ".swiper-pagination" },
+    autoplay: { delay: 2500, disableOnInteraction: false },
+    loop: true,
+  });
+
+  // EmailJS setup
+  (function(){
+    emailjs.init("6DIsguuaGj5e4Sg6m"); // 🔹 ضع هنا المفتاح من EmailJS
+  })();
+
+  document.getElementById("cairo-booking-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+    emailjs.sendForm("service_cyqzcvg", "template_mo1oeta", this)
+      .then(() => {
+        alert("✅ Your booking request has been sent successfully!");
+        this.reset();
+      }, (err) => {
+        alert("❌ Failed to send. Please try again.");
+        console.error(err);
+      });
+  });
+
+
+  document.addEventListener("DOMContentLoaded", function () {
+    new Swiper(".mySwiper", {
+      loop: true,
+      spaceBetween: 10,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  });

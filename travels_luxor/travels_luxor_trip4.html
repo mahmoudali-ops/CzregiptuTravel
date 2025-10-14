@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="To book hotels in hurghada" />
-    <meta name="author" content="" />
-    <title>Czar Egiptu - BoatTrips</title>
-    <!-- Favicon-->
-    <link href="../assets/img/logoNew.PNG" rel="icon">
-    <link href="../assets/img/logoNew.PNG" rel="apple-touch-icon">
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
-    <!-- Custom CSS and Bootstrap -->
-    <link rel="stylesheet" href="../css/main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="To book hotels in hurghada" />
+  <meta name="author" content="" />
+  <title>Czar Egiptu - Luxor Trips</title>
+  <!-- Favicon-->
+  <link href="../assets/img/logoNew.PNG" rel="icon">
+  <link href="../assets/img/logoNew.PNG" rel="apple-touch-icon">
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+  <!-- Core theme CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+  <!-- Custom CSS and Bootstrap -->
+  <link rel="stylesheet" href="../css/main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 </head>
 
 <body id="page-top">
@@ -107,13 +112,85 @@
 <!-- Luxor Tour Section -->
 
 
+<section class="cairo-hero position-relative text-center">
+  <div class="cairo-hero-overlay position-absolute top-0 start-0 w-100 h-100"></div>
+
+  <img 
+    src="../assets/img/luxor-5.jpg" 
+    class="cairo-hero-img" 
+    alt="Luxor By Bus"
+  />
+
+  <div class="cairo-hero-content position-absolute top-50 start-50 translate-middle text-white px-3">
+    <h1 data-translate="travelPrivateLuxorTour" class="fw-bold cairo-hero-title mb-0">Program of Private Luxor Day Tour
+    </h1>
+  </div>
+</section>
+
+
+ 
+<div class="container py-5">
+  <div class="row g-4 align-items-start">
+    
+  <!-- Carousel -->
+  <div class="col-lg-8 col-md-12 mb-4">
+    <div class="swiper mySwiper cairo-carousel rounded-4 overflow-hidden shadow-sm">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="../assets/img/luxor-1.jpg" class="w-100" alt="Cairo Image 1" />
+        </div>
+        <div class="swiper-slide">
+          <img src="../assets/img/luxor-2.jpg" class="w-100" alt="Cairo Image 2" />
+        </div>
+        <div class="swiper-slide">
+          <img src="../assets/img/luxor-3.jpg" class="w-100" alt="Cairo Image 3" />
+        </div>
+        <div class="swiper-slide">
+          <img src="../assets/img/luxor-4.jpg" class="w-100" alt="Cairo Image 4" />
+        </div>
+      </div>
+  
+      <!-- Pagination + Navigation -->
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+      
+
+    <!-- Booking Form -->
+    <div class="col-lg-4">
+        <form id="cairo-booking-form" class="cairo-form bg-white shadow-sm p-4 rounded sticky-top">
+          <h4 class="text-center mb-3 fw-bold cairo-form-title">Book Now</h4>
+      
+          <div class="mb-3">
+            <input type="text" name="from_name" class="form-control cairo-input" placeholder="Full Name" required />
+          </div>
+      
+          <div class="mb-3">
+            <input type="email" name="email" class="form-control cairo-input" placeholder="Email Address" required />
+          </div>
+      
+          <div class="mb-3">
+            <input type="tel" name="tel" class="form-control cairo-input" placeholder="Phone" required />
+          </div>
+      
+          <div class="mb-3">
+            <textarea name="message" rows="4" class="form-control cairo-input" placeholder="Message or tour date"></textarea>
+          </div>
+      
+          <button type="submit" class="btn w-100 cairo-btn">Send Booking</button>
+        </form>
+      </div>
+      
+
+  </div>
+</div>
+
+
+
 <section class="tour-details py-5">
   <div class="container">
-
-    <!-- صورة القسم -->
-    <div class="tour-image-wrapper mb-4">
-      <img src="../assets/img/l4.jpg" alt="Luxor Hot Air Balloon" class="tour-image">
-    </div>
 
     <h1 data-translate="travel-luxor-balloon-program">
       Program of Luxor Tour & Hot Air Balloon Ride
@@ -161,134 +238,90 @@
 </section>
 
 
-    <!-- Contact-->
-    <section class="page-section" id="contact">
-      <div class="container">
-          <div class="text-center">
-              <h2 class="section-heading text-uppercase" data-translate="contact_us">Contact Us</h2>
-              <h3 class="section-subheading text-muted" data-translate="contact_description">We are at your service.
-                  Do not hesitate to contact us</h3>
+  
+<footer class="footer py-4">
+  <div class="container">
+      <div class="row align-items-center">
+        <!-- 🏷️ Left Section -->
+    <div class="col-lg-4 mb-3 mb-lg-0">
+      <h5 class="fw-bold footer-brand mb-2" data-translate="brandName">Czar Egiptu Travel</h5>
+      <p class="small mb-0" data-translate="copyright">
+        &copy; 2024 All Rights Reserved
+      </p>
+    </div>
+          <div class="col-lg-4 my-3 my-lg-0">
+              <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/share/1DbF1PLhns/?mibextid=wwXIfr" aria-label="Facebook">
+                  <i class="fab fa-facebook-f"></i>
+              </a>
+              <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/czar.egiptu?igsh=MXN5ajlnN3ljM251Mw%3D%3D&utm_source=qr " aria-label="Instagram">
+                  <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a class="btn btn-dark btn-social mx-2" href="https://www.tiktok.com/@czar.egiptu3?_t=ZS-8zvAn2XwmjY&_r=1" aria-label="TikTok">
+                  <i class="fa-brands fa-tiktok"></i>
+              </a>
           </div>
 
-          <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-              <div class="row align-items-stretch mb-5">
-                  <div class="col-md-6">
-                      <div class="form-group">
-                          <!-- Name input-->
-                          <input class="form-control" id="name" type="text" placeholder="Your Name *"
-                              data-translate="your_name" data-sb-validations="required" />
-                          <div class="invalid-feedback" data-sb-feedback="name:required"
-                              data-translate="name_required">A name is required.</div>
-                      </div>
-                      <div class="form-group">
-                          <!-- Email address input-->
-                          <input class="form-control" id="email" type="email" placeholder="Your Email *"
-                              data-translate="your_email" data-sb-validations="required,email" />
-                          <div class="invalid-feedback" data-sb-feedback="email:required"
-                              data-translate="email_required">An email is required.</div>
-                          <div class="invalid-feedback" data-sb-feedback="email:email" data-translate="email_invalid">
-                              Email is not valid.</div>
-                      </div>
-                      <div class="form-group mb-md-0">
-                          <!-- Phone number input-->
-                          <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
-                              data-translate="your_phone" data-sb-validations="required" />
-                          <div class="invalid-feedback" data-sb-feedback="phone:required"
-                              data-translate="phone_required">A phone number is required.</div>
-                      </div>
-                  </div>
-                  <div class="col-md-6">
-                      <div class="form-group form-group-textarea mb-md-0">
-                          <!-- Message input-->
-                          <textarea class="form-control" id="message" placeholder="Your Message *"
-                              data-translate="your_message" data-sb-validations="required"></textarea>
-                          <div class="invalid-feedback" data-sb-feedback="message:required"
-                              data-translate="message_required">A message is required.</div>
-                      </div>
-                  </div>
-              </div>
-              <!-- Submit success message-->
-              <div class="d-none" id="submitSuccessMessage">
-                  <div class="text-center text-white mb-3">
-                      <div class="fw-bolder" data-translate="form_successful">Form submission successful!</div>
-                      <a aria-label="Chat on WhatsApp" href="https://wa.me/+201003985660">
-                          <img alt="Chat on WhatsApp" src="assets/img/portfolio/WhatsAppButtonGreenLarge.png" />
-                      </a>
-                  </div>
-              </div>
-              <!-- Submit error message-->
-              <div class="d-none" id="submitErrorMessage">
-                  <div class="text-center text-danger mb-3" data-translate="form_error">Error sending message!</div>
-              </div>
-              <!-- Submit Button-->
-              <div class="text-center">
-                  <button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit"
-                      data-translate="send_message">Send Message</button>
-              </div>
-          </form>
-      </div>
-  </section>
-
-  
-    <footer class="footer py-4">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-start" data-translate="copyright">Copyright &copy; Czar EgiptuTRAVEL 2024
-                </div>
-                <div class="col-lg-4 my-3 my-lg-0">
-                    <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/share/1DbF1PLhns/?mibextid=wwXIfr" aria-label="Facebook">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/czar.egiptu?igsh=MXN5ajlnN3ljM251Mw%3D%3D&utm_source=qr " aria-label="Instagram">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <a class="btn btn-dark btn-social mx-2" href="https://www.tiktok.com/@czar.egiptu3?_t=ZS-8zvAn2XwmjY&_r=1" aria-label="TikTok">
-                        <i class="fa-brands fa-tiktok"></i>
-                    </a>
-                </div>
+          <div class="col-lg-4 text-lg-end">
+              <p class="small mb-1" data-translate="contact">Contact us:</p>
+              <!-- <a href="mailto:info@czaregiptu.com" class="footer-link">info@czaregiptu.com</a><br /> -->
+              <a href="https://wa.me/+201003985660" class="footer-link">+20 100 398 5660</a>
             </div>
-        </div>
-    </footer>
-
-    <!-- Core JS-->
-    <script src="../js/scripts.js"></script>
-    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-        <!--Start of Tawk.to Script-->
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
+      
+  </div>
+</footer>
+  
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  
+   <!-- Core JS-->
+  <!-- Core JS-->
+  <script src="../js/scripts.js"></script>
+  <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+  <!-- Bootstrap JS (لو مش ضايفه) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+    <!--Start of Tawk.to Script-->
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
   var Tawk_API = Tawk_API || {};
   Tawk_API.customStyle = {
-    visibility: {
-      desktop: {
-        position: 'bl' // bottom left
-      },
-      mobile: {
-        position: 'bl' // bottom left
-      },
-      tablet: {
-        position: 'bl' // bottom left
-      }
-    }
+  visibility: {
+  desktop: {
+    position: 'bl' // bottom left
+  },
+  mobile: {
+    position: 'bl' // bottom left
+  },
+  tablet: {
+    position: 'bl' // bottom left
+  }
+  }
   };
   var Tawk_LoadStart = new Date();
   (function(){
-    var s1=document.createElement("script"),
-        s0=document.getElementsByTagName("script")[0];
-    s1.async = true;
-    s1.src = 'https://embed.tawk.to/68d1ae1b9599991924058af3/1j5ph0739';
-    s1.charset = 'UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1, s0);
+  var s1=document.createElement("script"),
+    s0=document.getElementsByTagName("script")[0];
+  s1.async = true;
+  s1.src = 'https://embed.tawk.to/68d1ae1b9599991924058af3/1j5ph0739';
+  s1.charset = 'UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1, s0);
   })();
-</script>
-<!--End of Tawk.to Script-->
-
+  </script>
   <!--End of Tawk.to Script-->
   
-</body>
-
-</html>
+  <!--End of Tawk.to Script-->
+  
+  </body>
+  
+  </html>

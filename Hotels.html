@@ -158,79 +158,18 @@
 
 
 
-    <!-- Contact-->
-    <section class="page-section" id="contact">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase" data-translate="contact_us">Contact Us</h2>
-                <h3 class="section-subheading text-muted" data-translate="contact_description">We are at your service.
-                    Do not hesitate to contact us</h3>
-            </div>
 
-            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                <div class="row align-items-stretch mb-5">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <!-- Name input-->
-                            <input class="form-control" id="name" type="text" placeholder="Your Name *"
-                                data-translate="your_name" data-sb-validations="required" />
-                            <div class="invalid-feedback" data-sb-feedback="name:required"
-                                data-translate="name_required">A name is required.</div>
-                        </div>
-                        <div class="form-group">
-                            <!-- Email address input-->
-                            <input class="form-control" id="email" type="email" placeholder="Your Email *"
-                                data-translate="your_email" data-sb-validations="required,email" />
-                            <div class="invalid-feedback" data-sb-feedback="email:required"
-                                data-translate="email_required">An email is required.</div>
-                            <div class="invalid-feedback" data-sb-feedback="email:email" data-translate="email_invalid">
-                                Email is not valid.</div>
-                        </div>
-                        <div class="form-group mb-md-0">
-                            <!-- Phone number input-->
-                            <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
-                                data-translate="your_phone" data-sb-validations="required" />
-                            <div class="invalid-feedback" data-sb-feedback="phone:required"
-                                data-translate="phone_required">A phone number is required.</div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group form-group-textarea mb-md-0">
-                            <!-- Message input-->
-                            <textarea class="form-control" id="message" placeholder="Your Message *"
-                                data-translate="your_message" data-sb-validations="required"></textarea>
-                            <div class="invalid-feedback" data-sb-feedback="message:required"
-                                data-translate="message_required">A message is required.</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Submit success message-->
-                <div class="d-none" id="submitSuccessMessage">
-                    <div class="text-center text-white mb-3">
-                        <div class="fw-bolder" data-translate="form_successful">Form submission successful!</div>
-                        <a aria-label="Chat on WhatsApp" href="https://wa.me/+201003985660">
-                            <img alt="Chat on WhatsApp" src="assets/img/portfolio/WhatsAppButtonGreenLarge.png" />
-                        </a>
-                    </div>
-                </div>
-                <!-- Submit error message-->
-                <div class="d-none" id="submitErrorMessage">
-                    <div class="text-center text-danger mb-3" data-translate="form_error">Error sending message!</div>
-                </div>
-                <!-- Submit Button-->
-                <div class="text-center">
-                    <button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit"
-                        data-translate="send_message">Send Message</button>
-                </div>
-            </form>
-        </div>
-    </section>
 
     <footer class="footer py-4">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-start" data-translate="copyright">Copyright &copy; Czar EgiptuTRAVEL 2024
-                </div>
+              <!-- 🏷️ Left Section -->
+          <div class="col-lg-4 mb-3 mb-lg-0">
+            <h5 class="fw-bold footer-brand mb-2" data-translate="brandName">Czar Egiptu Travel</h5>
+            <p class="small mb-0" data-translate="copyright">
+              &copy; 2024 All Rights Reserved
+            </p>
+          </div>
                 <div class="col-lg-4 my-3 my-lg-0">
                     <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/share/1DbF1PLhns/?mibextid=wwXIfr" aria-label="Facebook">
                         <i class="fab fa-facebook-f"></i>
@@ -242,9 +181,15 @@
                         <i class="fa-brands fa-tiktok"></i>
                     </a>
                 </div>
-            </div>
+    
+                <div class="col-lg-4 text-lg-end">
+                    <p class="small mb-1" data-translate="contact">Contact us:</p>
+                    <!-- <a href="mailto:info@czaregiptu.com" class="footer-link">info@czaregiptu.com</a><br /> -->
+                    <a href="https://wa.me/+201003985660" class="footer-link">+20 100 398 5660</a>
+                  </div>
+            
         </div>
-    </footer>
+      </footer>
 
     <!-- Portfolio Modals-->
     <script src="js/scripts.js"></script>
