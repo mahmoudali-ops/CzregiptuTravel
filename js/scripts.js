@@ -155,7 +155,14 @@ window.onclick = function (event) {
 const translations = {
  
     ru: {
-      
+      "travel-cairo-card-Cairo Private Tour":" Prywatna wycieczka do Kairu",
+      "travel-cairo-card-Cairo By Bus":"Kair autobusem",
+      "travel-luxor-card-Luxor Tour & Hot Air Balloon Ride":"Wycieczka do Luksoru i lot balonem na ogrzane powietrze",
+      "travel-luxor-card-LUXOR SMALL GROUP TOUR":"Wycieczka do Luksoru w małej grupie",
+
+      "travel-luxor-card-LUXOR PRIVATE TOUR":"Prywatna wycieczka do Luksoru",
+
+      "travel-luxor-card-LUXOR BY BUS":"Luksor autobusem",
   "travelIncludedTitleSea": "W cenie",
   "travelIncludedPickupSea": "Transport w obie strony z hotelu w Hurghadzie",
   "travelIncludedBoatSea": "Rejs motorówką po Morzu Czerwonym",
@@ -1645,6 +1652,12 @@ const translations = {
     },
 
     gr:{
+      "travel-cairo-card-Cairo Private Tour":"Kairo Privattour",
+      "travel-cairo-card-Cairo By Bus":"Kair mit dem Bus",
+      "travel-luxor-card-Luxor Tour & Hot Air Balloon Ride":"Luxor Tour & Heißluftballonfahrt",
+      "travel-luxor-card-LUXOR SMALL GROUP TOUR":"Luxor Kleingruppentour",
+      "travel-luxor-card-LUXOR PRIVATE TOUR":"Luxor Privattour",
+      "travel-luxor-card-LUXOR BY BUS":"Luxor mit dem Bus",
       "travelIncludedTitleSea": "Inklusive",
   "travelIncludedPickupSea": "Hin- und Rücktransfer von Ihrem Hotel in Hurghada",
   "travelIncludedBoatSea": "Schnellbootfahrt auf dem Roten Meer",
